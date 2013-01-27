@@ -1,0 +1,3 @@
+#!/bin/bash
+# Make sure you compile the most bleeding edge SWIG.
+swig -c++ -javascript -v8 -no-moduleobject udis86.i

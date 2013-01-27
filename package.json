@@ -1,0 +1,26 @@
+{
+  "name": "udis86",
+  "version": "0.0.1",
+
+  "scripts": {
+    "preinstall" : "node-waf configure && node-waf build",
+    "preuninstall": "rm -rf build/*"
+  },
+
+  "main": "build/Release/udis86.node",
+
+  "description": "Disassemble X86 and X86_64 instructions",
+  "author": {
+    "name" : "John Cant",
+    "email" : "a.johncant@gmail.com",
+    "url" : "http://behiring.com"
+  },
+
+  "repository" : {
+    "type" : "git",
+    "url" : "https://github.com/johncant/udis86-node.git"
+  },
+
+  "private" : "true"
+
+}
